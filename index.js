@@ -41,14 +41,30 @@
 // console.log(div.toFixed(2));
 // console.log(rem.toFixed(2));
 
-var number= -5.09;
+var number= -5.49;
+var number2= 100;
+
 var absoluteNumber = Math.abs(number);
 console.log(absoluteNumber);
 
-var absoluteNumber = Math.round(number);
+absoluteNumber = Math.round(number);
+console.log(absoluteNumber);
+console.log("hello");
+
+ absoluteNumber = Math.ceil(number);
 console.log(absoluteNumber);
 
 
+absoluteNumber = Math.floor(number);
+console.log(absoluteNumber);
+
+var absoluteNumber2 = Math.random(number2);
+
+ var vx= console.log(absoluteNumber2);
+
+// absoluteNumber2= Math.floor(number2);
+
+console.log(vx);
 
 
 
